@@ -31,8 +31,10 @@ wget https://github.com/influencia-app/Onnxruntime-cxx-termux/releases/download/
 unzip onnxruntime-linux-aarch64-1.17.0.zip
 ```
 
-
 After extracting the files, you can already use it on Termux.
+
+## Thanks 
+https://github.com/microsoft/onnxruntime
 
 License
 
