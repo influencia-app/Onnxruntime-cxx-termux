@@ -1,5 +1,13 @@
 ## ONNX Runtime CXX on Termux
 
+## WARNING ⚠️
+
+I do not intend to release the code because I don't have it. I did not compile it from scratch; I just used the ONNX binaries compiled for APK (Android) available at https://k2-fsa.github.io/sherpa/onnx/tts/apk.html and replaced them in the original ONNX CXX.
+
+In summary, I used the unzip command on the Next Gen Kaldi TTS, extracted the libonnxruntime.so file from the libs folder, and replaced it in the original code. And it worked.
+
+## OnnxRuntime
+
 ONNX Runtime is a cross-platform machine learning accelerator for inference and training.
 
 Onnxruntime-cxx-termux
@@ -35,6 +43,7 @@ After extracting the files, you can already use it on Termux.
 
 ## Thanks 
 https://github.com/microsoft/onnxruntime
+https://k2-fsa.github.io/sherpa/onnx/tts/apk.html%C2%A0and
 
 License
 
